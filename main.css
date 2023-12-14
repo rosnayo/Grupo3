@@ -1,0 +1,90 @@
+@import url("https://fonts.google.com/specimen/Josefin+Sans");
+@import url("https://fonts.google.com/specimen/Alata");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Alata, Josefin Sans;
+
+  /* Alata Weight: 400 */
+  /* Josefin Sans Weight: 300 */
+  width: 1140px;
+  height: 100vh;
+
+}
+
+.container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  border: solid;
+  border-width: 2px;
+  border-color: red;
+  
+}
+
+.cabecera {
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-size: mimax(100%);
+    background-repeat: no-repeat;
+    
+}
+
+.navega {
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end;
+  list-style: none;
+  color: white;
+  /* text-transform: uppercase; */
+}
+
+
+.brand {
+  margin-top: 30px;
+  padding-top: 50px;
+  width: auto;
+  height: auto;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+    cursor: pointer;
+    
+  }
+
+  li{
+    margin-right: 20px;
+        
+  }
+
+ a {
+	text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.deliver{
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+
+    margin: 50px 150px;
+    padding: 20px 20px 20px 20px;
+    height: auto;
+    width: 290px;
+    color: white;
+    font-size: 40px;
+}
+
+.parte2{
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+}
